@@ -51,3 +51,12 @@ $_SERVER['REMOTE_ADDR']
 ```
 $_SERVER['HTTP_HOST']
 ```
+
+### 9 $_SERVER : Demo - User Agent Information
+```
+$_SERVER['HTTP_USER_AGENT']
+```
+### 10 $_SERVER : Demo - Time Script Was Requested
+```
+$_SERVER['REQUEST_TIME']
+```
