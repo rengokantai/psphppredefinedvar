@@ -17,3 +17,16 @@ $http_response_header
 $argc
 $argv
 ```
+
+
+## 3. $_ENV
+### 3 Demo - Enable Environmant Variables
+```
+vim /etc/php5/apache2/php.ini
+service apache2 restart
+```
+```
+print_r($_ENV['APACHE_RUN_USER']);
+```
+
+[diff between $ENV and getenv](https://stackoverflow.com/questions/8798294/getenv-vs-env-in-php)
