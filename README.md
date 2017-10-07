@@ -30,3 +30,8 @@ print_r($_ENV['APACHE_RUN_USER']);
 ```
 
 [diff between $ENV and getenv](https://stackoverflow.com/questions/8798294/getenv-vs-env-in-php)
+
+### 5 $_SERVER : Demo - Root Directory of Given Web Site
+```
+$_SERVER['DOCUMENT_ROOT']
+```
