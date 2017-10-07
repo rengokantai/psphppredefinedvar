@@ -58,5 +58,6 @@ $_SERVER['HTTP_USER_AGENT']
 ```
 ### 10 $_SERVER : Demo - Time Script Was Requested
 ```
-$_SERVER['REQUEST_TIME']
+$time = $_SERVER['REQUEST_TIME'];
+print date('YmdHis',$time);
 ```
