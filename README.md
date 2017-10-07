@@ -35,3 +35,19 @@ print_r($_ENV['APACHE_RUN_USER']);
 ```
 $_SERVER['DOCUMENT_ROOT']
 ```
+
+### 6 $_SERVER : Demo - Server IP Address
+```
+$_SERVER['SERVER_ADDR']
+```
+
+### 7 $_SERVER : Demo - Server IP Address
+```
+$_SERVER['REMOTE_ADDR']
+```
+
+
+### 8 $_SERVER : Demo - Host Name
+```
+$_SERVER['HTTP_HOST']
+```
